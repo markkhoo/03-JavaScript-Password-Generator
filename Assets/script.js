@@ -73,8 +73,7 @@ function generatePassword() {
     } else {
       alert("Please enter a number between 8 and 128")
     };
-  } else {
-    alert("Entry is null. Please start over.");
+
   };
 
   return actualPassword;
